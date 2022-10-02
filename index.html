@@ -40,12 +40,13 @@
             </nav>
         </div>
   
-          <div>
-            <a class="links-contact links margin-right50-header margin-left-header icon-spacing icon" href="mailto:info@devstudio.com">
-              <svg class="icon-spacing icon" width="16" height="12">
+          <div class="contact">
+            <a class="contact__links" href="mailto:info@devstudio.com">
+              <svg class="contact__icon " width="16" height="12">
               <use xlink:href="./images/icons.svg#icon-envelope"></use>
               </svg>info@devstudio.com</a>
-            <a class="links-contact links icon" href="tel:+48111111111"><svg class="icon-spacing icon" width="16" height="12">
+            <a class="contact__links" href="tel:+48111111111">
+              <svg class="contact__icon" width="16" height="12">
               <use xlink:href="./images/icons.svg#icon-smartphone"></use>
               </svg>+48 111 111 111</a>
           </div>
@@ -55,45 +56,45 @@
 
     <main>
       
-      <section class="main-box"> 
-        <div class="main-box-background-image">
-          <div class="container main-box-container">
-            <h1 class="class-h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button class="main-box-btn" type="button" data-modal-open>Zamów usługe</button>
+      <section class="order-section"> 
+        <div class="order-section__background-image">
+          <div class="order-section__container">
+            <h1 class="class-h1 order-section__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button class="order-section__button" type="button" data-modal-open>Zamów usługe</button>
           </div>
         </div>
       </section>
 
       <section class="section">
         <div class="container">
-          <ul class="list list-one-line">
+          <ul class="info1">
             <li>
-              <svg width="270" height="120" class="index-not-white-background"><use width="70" height="70" x="100" y="25" xlink:href="./images/icons.svg#icon-antenna"></use></svg>
-              <h3 class="class-h3">LOREM IPSUM</h3>
+              <svg width="270" height="120" class="info1__image"><use width="70" height="70" x="100" y="25" xlink:href="./images/icons.svg#icon-antenna"></use></svg>
+              <h3 class="class-h3 info1__tittle">LOREM IPSUM</h3>
+              <p class="info1__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <svg width="270" height="120" class="info1__image"><use width="70" height="70" x="100" y="25" xlink:href="./images/icons.svg#icon-clock"></use></svg>
+              <h3 class="class-h3 info1__tittle">LOREM IPSUM</h3>
               <p class="text-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <svg width="270" height="120" class="index-not-white-background"><use width="70" height="70" x="100" y="25" xlink:href="./images/icons.svg#icon-clock"></use></svg>
-              <h3 class="class-h3">LOREM IPSUM</h3>
-              <p class="text-paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li>
-              <svg width="270" height="120" class="index-not-white-background"><use width="70" height="70" x="100" y="25" xlink:href="./images/icons.svg#icon-diagram"></use></svg>
-              <h3 class="class-h3">LOREM IPSUM</h3>
+              <svg width="270" height="120" class="info1__image"><use width="70" height="70" x="100" y="25" xlink:href="./images/icons.svg#icon-diagram"></use></svg>
+              <h3 class="class-h3 info1__tittle">LOREM IPSUM</h3>
               <p class="text-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
              </p>
             </li>
             <li>
-              <svg width="270" height="120" class="index-not-white-background"><use width="70" height="70" x="100" y="25" xlink:href="./images/icons.svg#icon-astronaut"></use></svg>
-              <h3 class="class-h3">LOREM IPSUM</h3>
+              <svg width="270" height="120" class="info1__image"><use width="70" height="70" x="100" y="25" xlink:href="./images/icons.svg#icon-astronaut"></use></svg>
+              <h3 class="class-h3 info1__tittle">LOREM IPSUM</h3>
               <p class="text-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
@@ -102,9 +103,12 @@
           </ul>
         </div>
       </section>
+
       <section class="section">
         <div class="container">
           <h2 class="class-h2">Czym się zajmujemy</h2>
+
+          
           <ul class="list list-one-line">
             <li class="li-item box-relative">
               <img
