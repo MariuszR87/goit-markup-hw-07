@@ -110,6 +110,12 @@ body {
   border-bottom: 1px solid #ECECEC;
  }
 
+ .footer{
+  background: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .container{
   width: 1200px;
   margin: 0 auto;
@@ -155,6 +161,8 @@ body {
 .logo-section{
   margin-right: 93px;
 }
+
+
 
  
   /* LOGO */
@@ -750,7 +758,24 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       z-index: 0;
       border-radius: 3px;
 }
-.modal__submit-button{}
+.modal__submit-button{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border: none;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin: 30px auto;
+  padding: 10px 76px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 .modal__submit-button:hover, .modal__submit-button:focus {
       cursor: pointer;
       background-color: darkcyan;
@@ -759,38 +784,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .backdrop{
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.2);
-      cursor: not-allowed;
     
-      
-      transition: opacity 1500ms ease-in-out, visibility 1500ms ease-in-out;
-      opacity: 1;
-      visibility: visible;
-      transition-property: opacity, visibility;
-    }
-    .modal{
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transition-property: transform;
-      transform: translate(-50%,-50%);
-      width: 528px;
-      min-height: 581px;
-      background-color: var(--white);
-      cursor:auto;
-      display: block;
-    }
-    .is-hidden {
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
-    }
     .close-btn{
       position: absolute;
       justify-content: center;
@@ -937,11 +931,7 @@ END END END */
 
 
  /* FOOTER */
-.footer{
-  background: #2F303A;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 
   /* Zadanie 5 chat, stiki */
 .chat-button {
