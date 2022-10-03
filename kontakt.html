@@ -21,29 +21,32 @@
       
         <div class="logo-and-menu">
 
-          <div class="logo-section"><a href="./index.html" class="logo">Web<span class="logo-dark">Studio</span></a></div>
+          <div class="logo">
+            <a href="./index.html" class="logo__links">Web<span class="logo__links--dark">Studio</span></a>
+          </div>
       
             <nav>
-              <ul class="menu-list">
-                <li>
-                  <a href="./index.html" class="nav-item links">Agencja</a>
+              <ul class="nav">
+                <li class="nav__item">
+                  <a href="./index.html" class="nav__links">Agencja</a>
                 </li>
-                <li>
-                  <a href="./portfolio.html" class="nav-item links">Portfolio</a>
+                <li class="nav__item">
+                  <a href="./portfolio.html" class="nav__links ">Portfolio</a>
                 </li>
-                <li>
-                  <a href="./kontakt.html" class="nav-item links active-page">Kontakt</a>
+                <li class="nav__item">
+                  <a href="./kontakt.html" class="nav__links nav__links--active">Kontakt</a>
                 </li>
               </ul>
             </nav>
-          </div>
+        </div>
   
-          <div>
-            <a class="links-contact links margin-right50-header margin-left-header icon-spacing icon" href="mailto:info@devstudio.com">
-              <svg class="icon-spacing icon" width="16" height="12">
+          <div class="contact">
+            <a class="contact__links" href="mailto:info@devstudio.com">
+              <svg class="contact__icon " width="16" height="12">
               <use xlink:href="./images/icons.svg#icon-envelope"></use>
               </svg>info@devstudio.com</a>
-            <a class="links-contact links icon" href="tel:+48111111111"><svg class="icon-spacing icon" width="16" height="12">
+            <a class="contact__links" href="tel:+48111111111">
+              <svg class="contact__icon" width="16" height="12">
               <use xlink:href="./images/icons.svg#icon-smartphone"></use>
               </svg>+48 111 111 111</a>
           </div>
@@ -532,35 +535,40 @@
     </main>
 
     <footer class="footer">
-      <section class="container display-flex-center1">
+      <section class="container">
+
+      <div class="footer-localization">
+
       <div class="">
-        <div class="">
-          <a href="./index.html" class="logo">Web<span class="logo-white">Studio</span></a>
+          <a href="./index.html" class="logo-footer">Web<span class="logo-footer--white">Studio</span></a>
           <address class="footer-adress">
           <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-            <a class="links-contact links footer-links-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="links-contact links footer-links-contact" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="footer-adress__links" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-adress__links" href="tel:+48111111111">+48 111 111 111</a>
           </address>
-        </div>
       </div>
-      <div class="fotter-margin70">
-        <h3 class="class-h3 logo-white">DOŁĄCZ DO NAS</h3>
+      
+      <div class="">
+        <h3 class="class-h3 footer-join__tittle">DOŁĄCZ DO NAS</h3>
         <div class="social-links">
-          <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-instagram"></use></svg>
-          <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-twitter"></use></svg>
-          <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-facebook"></use></svg>
-          <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-linkedin"></use></svg>
+          <a href=""><svg class="footer-join__social-media-links" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-instagram"></use></svg></a>
+          <a href=""><svg class="footer-join__social-media-links" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-twitter"></use></svg></a>
+          <a href=""><svg class="footer-join__social-media-links" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-facebook"></use></svg></a>
+          <a href=""><svg class="footer-join__social-media-links" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-linkedin"></use></svg></a>
         </div>
       </div>
+
       <div>
-        <form class="display-flex-center">
-          <label for="" class="class-h3-nomargin logo-white">Zapisz się do newslettera
+        <form class="footer-newsletter">
+          <label for="" class="footer-newsletter__label">Zapisz się do newslettera
           
-            <input type="email" name="email" class="label-fotter" placeholder="E-mail"/>
+            <input type="email" name="email" class="footer-newsletter__input" placeholder="E-mail"/>
           </label>  
-          <button class="submit-btn-fotter" type="submit">Zapisz się<svg width="24" height="24" class="icon-fotter"><use href="./images/icons.svg#icon-send"></use></svg></button>
+          <button class="footer-newsletter__submit-button" type="submit">Zapisz się<svg width="24" height="24" class="footer-newsletter__icon-on-button"><use href="./images/icons.svg#icon-send"></use></svg></button>
         </form>
       </div>
+
+    </div>
       </section>
     </footer>
   </div>
