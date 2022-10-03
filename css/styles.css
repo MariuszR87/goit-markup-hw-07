@@ -616,8 +616,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   font-family: inherit;
   margin-top: 4px;
 }
-
-
 .modal__input--textarea{
   resize: none;
   width: 200px;
@@ -633,7 +631,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   border: Solid #21212133;
   border-radius: 4px;
 }
-
 .modal__label:hover,
 .modal__label:focus-within,
 .modal__input:hover,
@@ -700,7 +697,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
       transition-duration:  250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
+}
 .modal__icons-agree{
   position: absolute;
       top: 4px;
@@ -768,7 +765,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-    /* PORTFOLIO CARDS */
+/* PORTFOLIO CARDS */
 .portfolio-cards{
   box-sizing: border-box;
   margin: auto;
@@ -813,7 +810,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
   height: 294px;
 }
-.portfolio-cards__overlay-box:hover 
+.portfolio-cards__list-item:hover 
 .portfolio-cards__moving-overlay{
   transition-property: transform;
   transform: translateY(0);
