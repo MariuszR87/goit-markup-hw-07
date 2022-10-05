@@ -14,27 +14,6 @@
 --fotter-links: #ffffff99;
 --icon-grey: #AFB1B8;
 }
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-h1,
-h2,
-h3,
-ul {
-padding: 0;
-margin: 0 auto;
-}
-::after,
-::before{
-  box-sizing: border-box;
-}
-figure {
-  margin: 0;
-  padding: 0;
-}
 .class-h1 {
   font-weight: 900;
   font-size: 44px;
@@ -68,32 +47,54 @@ figure {
   text-align: left;
   letter-spacing: 0.03em;
 }
-.block__tittle{
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-top: 0;
-  margin-bottom: 50px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+h1,
+h2,
+h3,
+ul {
+padding: 0;
+margin: 0 auto;
+}
+::after,
+::before{
+  box-sizing: border-box;
+}
+figure {
+  margin: 0;
+  padding: 0;
+} 
+
+.wrapper{
+  width: 100%;
+  background-color: var(--background-color-main);
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color-main);
   background-color: var(--background-color-main);
 }
-.wrapper{
-  width: 100%;
-  background-color: var(--background-color-main);
-}
+
 .header{
   border-bottom: 1px solid #ECECEC;
  }
- .container{
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 0;
-}
+
  .footer{
   background: #2F303A;
   padding-top: 60px;
@@ -110,11 +111,8 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  }
-  .block__tittle{
+
+.block__tittle{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -142,8 +140,6 @@ body {
   .logo__links--white{
     color: var(--white);
   }
-
-
 
 /* NAVIGACJA */
 .nav{
@@ -263,7 +259,7 @@ cursor: pointer;
   transition-property: background-color;
   transition-duration:  250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} 
 
 /* INFORMATIONS */
 .info1 {
@@ -339,6 +335,12 @@ cursor: pointer;
   box-sizing: border-box;
   max-width: 270px;
 }
+
+.team__figcaption{
+  padding: auto auto;
+  align-items: center;
+  justify-content: center;
+}
 .team__name {
   font-weight: 500;
   font-size: 16px;
@@ -355,7 +357,7 @@ cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
   color:var(--font-color-second)
-}
+} 
 /* TEAM SOCIAL MEDIA */
 .social-media__tittle {
   color: var(--white);
@@ -366,7 +368,7 @@ cursor: pointer;
   font-size: 14px;
   margin-bottom: 15px;
 }
-.team__social-media{
+.social-media{
   display: flex;
   justify-content: center;
   margin-top:15px;
@@ -442,7 +444,6 @@ cursor: pointer;
 }
 
 /* FOOTER */
-
 .footer-adress{
   text-decoration: none;
   color: var(--white);

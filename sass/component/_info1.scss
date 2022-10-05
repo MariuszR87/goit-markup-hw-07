@@ -1,0 +1,25 @@
+  .info1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+      &__image {
+        background-color: var(--not-white);
+      }
+      &__tittle{
+        font-weight: 700;
+        line-height: 1.14;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      &__text {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--font-color-second)
+      }
+  }
+ 
