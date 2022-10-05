@@ -184,10 +184,8 @@ body {
   transition-duration:  250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 /* CONTACT */
-.contact{
-}
+
 .contact > a:nth-child(1){
   margin-right: 50px;
 }
@@ -705,7 +703,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  transition-duration:  250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } 
-.modal__checkbox-links{}
+
 .modal__checkbox-links:focus, .modal__checkbox-links:hover  {
   color: #2196F3;
   transition-property: color;
