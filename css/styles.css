@@ -105,9 +105,10 @@ body {
   justify-content: space-between;
   height: 80px;
 }
-.logo-and-menu {
+.justify-class {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .section {
   padding-top: 94px;
@@ -136,6 +137,10 @@ body {
   }
   .logo__links--dark{
     color: var(--black);
+  }
+
+  .logo__links--white{
+    color: var(--white);
   }
 
 
