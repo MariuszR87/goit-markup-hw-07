@@ -7,11 +7,7 @@
       &__tittle {
         color: var(--white);
         margin-bottom: 15px;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
+       @extend .class-h3;
       }
 
       &__links{
