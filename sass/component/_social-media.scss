@@ -5,9 +5,9 @@
     margin-top: 15px;
 
       &__tittle {
+        @extend .class-h3;
         color: var(--white);
         margin-bottom: 15px;
-       @extend .class-h3;
       }
 
       &__links{

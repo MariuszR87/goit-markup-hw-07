@@ -78,6 +78,20 @@ figure {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.block__tittle{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.section-not-white {
+  background-color: var(--not-white);
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 
 
 
@@ -87,15 +101,9 @@ body {
   background-color: var(--background-color-main);
 }
 
-.header{
-  border-bottom: 1px solid #ECECEC;
- }
 
- .footer{
-  background: #2F303A;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
+
 .page-header{
   display: flex;
   align-items: center;
@@ -116,6 +124,26 @@ body {
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+.header{
+  border-bottom: 1px solid #ECECEC;
+ }
+
+.header__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.header__setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
   /* LOGO */
   .logo{
@@ -217,12 +245,14 @@ cursor: pointer;
   background-color: var(--background-color-secondary);
   background-image: linear-gradient( 0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100% ), url(https://raw.githubusercontent.com/MariuszR87/goit-markup-hw-04/master/images/backgroundimage.jpg);
   background-size: cover;
+  padding: 200px;
+  
 }
 .order-section__container {
   text-align: center;
-  padding: 200px;
+  
   height: 600px;
-  width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 .order-section__title {
@@ -258,16 +288,27 @@ cursor: pointer;
 } 
 
 /* INFORMATIONS */
-.info1 {
+
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.feature__container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.feature__list {
   list-style: none;
   display: flex;
   justify-content: center;
   column-gap: 30px;
 }
-.info1__image {
+.feature__image {
   background-color: var(--not-white);
 }
-.info1__tittle{
+.feature__tittle{
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -275,7 +316,7 @@ cursor: pointer;
   font-size: 14px;
   margin-bottom: 10px;
 }
-.info1__text {
+.feature__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -283,7 +324,31 @@ cursor: pointer;
 }
 
 /* SERVICES */
+
+
+
 .services {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.services__container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.services__tittle{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+
+.services__list {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -312,6 +377,29 @@ cursor: pointer;
 
 /* OUR TEAM */
 .team{
+  background-color: var(--not-white);
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.team__container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.team__tittle{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+
+
+.team__list{
   list-style: none;
   display: flex;
   justify-content: center;
@@ -410,7 +498,25 @@ cursor: pointer;
 }
 
 /* CUSTOMERS */
-.customers{
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.customers__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+.customers__tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.customers__list{
   list-style: none;
   display: flex;
   justify-content: center;
@@ -440,6 +546,22 @@ cursor: pointer;
 }
 
 /* FOOTER */
+
+.footer{
+  background: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+.footer__setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .footer-adress{
   text-decoration: none;
   color: var(--white);
@@ -464,16 +586,8 @@ transition-duration:  250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* JOIN US MEDIA */
-.footer__tittles {
-  color: var(--white);
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  padding-bottom: 0px;
-}
+
+
   /* FOOTER NEWSLETTER */
 
   .footer-newsletter{
@@ -485,16 +599,16 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding-right: 0;
     
   }
-  .footer-newsletter__label{
-    display: flex;
-    flex-direction: column;
+  .footer-newsletter__tittles {
     color: var(--white);
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     font-size: 14px;
-    
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
   }
   .footer-newsletter__input{
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -541,7 +655,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* MODAL */
-.modal__backdrop{
+.backdrop{
   position: fixed;
   left: 0;
   top: 0;
@@ -554,7 +668,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   visibility: visible;
   transition-property: opacity, visibility;
 }
-.modal__backdrop--is-hiddden{
+.backdrop--is-hiddden{
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
