@@ -2,13 +2,9 @@
   margin-right: 50px;
 }
 .contact__links{
-  color: var(--font-color-second);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-    &__links:hover,
+  @extend .contact-links-txt !optional;
+    
+  &__links:hover,
     &__links:focus {
     color: var(--hover-color);
     fill: var(--hover-color);
