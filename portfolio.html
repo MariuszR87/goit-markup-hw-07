@@ -9,69 +9,72 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <div class="wrapper">
 
-    <header class="header">
-      <section class="container page-header">
-      
-        <div class="justify-class">
-
-          <div class="logo">
-            <a href="./index.html" class="logo__links">Web<span class="logo__links--dark">Studio</span></a>
-          </div>
-      
-            <nav>
-              <ul class="nav">
-                <li class="nav__item">
-                  <a href="./index.html" class="nav__links">Agencja</a>
-                </li>
-                <li class="nav__item">
-                  <a href="./portfolio.html" class="nav__links nav__links--active">Portfolio</a>
-                </li>
-                <li class="nav__item">
-                  <a href="./kontakt.html" class="nav__links">Kontakt</a>
-                </li>
-              </ul>
-            </nav>
-        </div>
+      <header class="header">
+        <section class="header__container">
+        
+          <div class="header__setting">
   
-          <div class="contact">
-            <a class="contact__links" href="mailto:info@devstudio.com">
-              <svg class="contact__icon " width="16" height="12">
-              <use xlink:href="./images/icons.svg#icon-envelope"></use>
-              </svg>info@devstudio.com</a>
-            <a class="contact__links" href="tel:+48111111111">
-              <svg class="contact__icon" width="16" height="12">
-              <use xlink:href="./images/icons.svg#icon-smartphone"></use>
-              </svg>+48 111 111 111</a>
+            <div class="logo">
+              <a href="./index.html" class="logo__links">Web<span class="logo__links--dark">Studio</span></a>
+            </div>
+        
+              <nav>
+                <ul class="nav">
+                  <li class="nav__item">
+                    <a href="./index.html" class="nav__links">Agencja</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="./portfolio.html" class="nav__links nav__links--active">Portfolio</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="./kontakt.html" class="nav__links ">Kontakt</a>
+                  </li>
+                </ul>
+              </nav>
           </div>
+    
+            <div class="contact">
+              <a class="contact__links" href="mailto:info@devstudio.com">
+                <svg class="contact__icon " width="16" height="12">
+                <use xlink:href="./images/icons.svg#icon-envelope"></use>
+                </svg>info@devstudio.com</a>
+              <a class="contact__links" href="tel:+48111111111">
+                <svg class="contact__icon" width="16" height="12">
+                <use xlink:href="./images/icons.svg#icon-smartphone"></use>
+                </svg>+48 111 111 111</a>
+            </div>
+  
+        </section>
+      </header>
 
-      </section>
-    </header>
+    <main>
 
-    <main class="section">
-      <section class="container">
-        <ul class="button-filters">
+      <section class="portfolio" >
+        <div class="container">
+        <ul class="portfolio__button-list">
           <li>
-            <button class="button-filters__button" type="button">Wszystkie</button>
+            <button class="portfolio__button" type="button">Wszystkie</button>
           </li>
           <li>
-            <button class="button-filters__button" type="button">Strony</button>
+            <button class="portfolio__button" type="button">Strony</button>
           </li>
           <li>
-            <button class="button-filters__button" type="button">Aplikacje</button>
+            <button class="portfolio__button" type="button">Aplikacje</button>
           </li>
           <li>
-            <button class="button-filters__button" type="button">Dizajn</button>
+            <button class="portfolio__button" type="button">Dizajn</button>
           </li>
           <li>
-            <button class="button-filters__button" type="button">Marketing</button>
+            <button class="portfolio__button" type="button">Marketing</button>
           </li>
         </ul>
+      </div>
       </section>
 
       <section class="container portfolio-cards">
@@ -191,9 +194,8 @@
     </main>
 
     <footer class="footer">
-      <section class="container">
-
-        <div class="justify-class">
+      <section class="footer__container">
+        <div class="footer__setting">
 
           <div class="">
               <a href="./index.html" class="logo__links">Web<span class="logo__links--white">Studio</span></a>
@@ -205,7 +207,7 @@
           </div>
       
           <div class="">
-            <h3 class="class-h3 social-media__tittle">DOŁĄCZ DO NAS</h3>
+            <h3 class="social-media__tittle">DOŁĄCZ DO NAS</h3>
               <div class="social-media">
                 <a href="" class="social-media__links"><svg class="social-media__icon--dark" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-instagram"></use></svg></a>
                 <a href="" class="social-media__links"><svg class="social-media__icon--dark" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-twitter"></use></svg></a>
@@ -216,7 +218,7 @@
 
           <div>
             <form class="footer-newsletter">
-              <label for="" class=" footer-newsletter__label footer__tittles">Zapisz się do newslettera
+              <label for="" class="footer-newsletter__tittles">Zapisz się do newslettera
               
                 <input type="email" name="email" class="footer-newsletter__input" placeholder="E-mail"/>
               </label>  
