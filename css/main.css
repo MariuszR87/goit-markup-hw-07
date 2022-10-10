@@ -13,6 +13,14 @@
   --fotter-links: #ffffff99;
   --icon-grey: #AFB1B8;
 }
+:root --class-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
 
 .class-h1 {
   font-weight: 900;
@@ -298,7 +306,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contact__links__links:hover, .contact__links__links:focus {
+.contact__links:hover, .contact__links:focus {
   color: var(--hover-color);
   fill: var(--hover-color);
   -webkit-transition-property: color, fill;
@@ -349,9 +357,9 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
-  margin: 0 auto;
   width: 696px;
+  margin: 0 auto;
+  color: #FFFFFF;
 }
 
 .order-section__button {
